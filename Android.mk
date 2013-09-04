@@ -17,6 +17,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),codinanewcotmo)
+ifeq ($(TARGET_DEVICE),codinaMetroPCS)
     include $(call first-makefiles-under,$(LOCAL_PATH))
 endif

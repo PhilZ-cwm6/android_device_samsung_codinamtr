@@ -16,11 +16,11 @@
 #
 
 -include device/samsung/codina-common/BoardCommonConfig.mk
-TARGET_OTA_ASSERT_DEVICE := codinanewcotmo,t599n,SGH-T599N
+TARGET_OTA_ASSERT_DEVICE := codinaMetroPCS,t599n,SGH-T599N
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := DB8520H
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_codinanewcotmo_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_codinaMetroPCS_defconfig
 

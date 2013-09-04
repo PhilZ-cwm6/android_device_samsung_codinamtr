@@ -17,8 +17,8 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Inherit the proprietary vendors blobs for Samsung Codinanewcotmo.
-$(call inherit-product, vendor/samsung/codinanewcotmo/codinanewcotmo-vendor.mk)
+# Inherit the proprietary vendors blobs for Samsung CodinaMetroPCS.
+$(call inherit-product, vendor/samsung/codinaMetroPCS/codinaMetroPCS-vendor.mk)
 
 # Inherit common configuration for all Samsung Codina variants
 $(call inherit-product, device/samsung/codina-common/device.mk)

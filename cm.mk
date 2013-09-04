@@ -19,15 +19,15 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/codinanewcotmo/full_codinanewcotmo.mk)
+$(call inherit-product, device/samsung/codinaMetroPCS/full_codinaMetroPCS.mk)
 
 # Device identifier
-PRODUCT_DEVICE := codinanewcotmo
-PRODUCT_NAME := cm_codinanewcotmo
+PRODUCT_DEVICE := codinaMetroPCS
+PRODUCT_NAME := cm_codinaMetroPCS
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SGH-T599N
 PRODUCT_MANUFACTURER := samsung
 
 # Set build fingerprint and ID
 BUILD_ID := TRIANA00$(shell date -u +%Y%m%d)
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cm_codinanewcotmo BUILD_FINGERPRINT=cyanogenmod/cm_codinanewcotmo/codinanewcotmo:4.2.2/$(BUILD_ID) PRIVATE_BUILD_DESC="SGH-T599N 4.2.2"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cm_codinaMetroPCS BUILD_FINGERPRINT=cyanogenmod/cm_codinaMetroPCS/codinaMetroPCS:4.2.2/$(BUILD_ID) PRIVATE_BUILD_DESC="SGH-T599N 4.2.2"
