@@ -16,7 +16,7 @@
 #
 
 -include device/samsung/codina-common/BoardCommonConfig.mk
-TARGET_OTA_ASSERT_DEVICE := codinaMetroPCS,t599n,SGH-T599N
+TARGET_OTA_ASSERT_DEVICE := codinaMetroPCS
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := DB8520H

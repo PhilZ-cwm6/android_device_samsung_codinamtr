@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/codinaMetroPCS/full_codinaMetroPCS.mk)
 # Device identifier
 PRODUCT_DEVICE := codinaMetroPCS
 PRODUCT_NAME := cm_codinaMetroPCS
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := MetroPCS
 PRODUCT_MODEL := SGH-T599N
 PRODUCT_MANUFACTURER := samsung
 
