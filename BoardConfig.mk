@@ -22,5 +22,5 @@ TARGET_OTA_ASSERT_DEVICE := codinaMetroPCS
 TARGET_BOOTLOADER_BOARD_NAME := DB8520H
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_codinaMetroPCS_defconfig
+TARGET_KERNEL_CONFIG := codinanewcotmo_defconfig
 
