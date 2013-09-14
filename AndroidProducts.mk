@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_codinaMetroPCS.mk
+    $(LOCAL_DIR)/full_codinamtr.mk
