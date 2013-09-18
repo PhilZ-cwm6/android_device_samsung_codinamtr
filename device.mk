@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Inherit the proprietary vendors blobs for Samsung CodinaMetroPCS.
 #$(call inherit-product, vendor/samsung/codinaMetroPCS/codinaMetroPCS-vendor.mk)
